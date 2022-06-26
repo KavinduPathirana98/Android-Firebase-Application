@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="retailer_heading">Path to your \n dream job</string>
+    <string name="retailer_tagline">Find out what you like doing best and get someone to pay you for doing it! </string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="how_we_work">How We Work ?</string>
+    <string name="copyright"> 2020 @ All Right Reserved By © Kavindu Pathirana</string>
+    <string name="company_name">"EaZy JobZ"</string>
+    <string name="subject_line">Work to become, not to acquire!!</string>
+    <string name="input_username">Enter Username</string>
+    <string name="input_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="create_account">Create Account</string>
+</resources>

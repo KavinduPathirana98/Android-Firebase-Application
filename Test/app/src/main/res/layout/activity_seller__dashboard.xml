@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:background="@drawable/back"
+        android:gravity="center_horizontal"
+        android:text="Find your job"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/txt_username"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:padding="20px"
+        android:rowCount="3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+
+            >
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:src="@drawable/file"
+                app:tint="@color/light_blue_70" />
+
+            <LinearLayout
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:gravity="bottom|center"
+                    android:text="Add Job"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_blue_70"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+
+
+            >
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:src="@drawable/updated"
+                app:tint="@color/light_blue_70" />
+
+            <LinearLayout
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:gravity="bottom|center"
+                    android:text="Update job  "
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_blue_70"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+
+            >
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:src="@drawable/deleted"
+                app:tint="@color/light_blue_70" />
+
+            <LinearLayout
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:gravity="bottom|center"
+                    android:text="Delete job"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_blue_70"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+
+            >
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:src="@drawable/updateuser"
+                app:tint="@color/light_blue_70" />
+
+            <LinearLayout
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:gravity="bottom|center"
+                    android:text="Update User"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_blue_70"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</RelativeLayout>
